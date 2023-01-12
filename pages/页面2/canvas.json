@@ -1,0 +1,511 @@
+{
+  "unpublishedPage": {
+    "name": "页面2",
+    "slug": "2",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1950,
+          "containerStyle": "none",
+          "snapRows": 84,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 65,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "html1",
+              "isCanvas": false,
+              "displayName": "HTML",
+              "iconSVG": "/static/media/icon.d4a668d70f527879b31cfbeebe09e4f6.svg",
+              "searchTags": [
+                "html"
+              ],
+              "topRow": 4,
+              "bottomRow": 22,
+              "parentRowSpace": 10,
+              "type": "TARO_HTML_WIDGET",
+              "content": "<p style='font-size: 36px; font-weight: bold; font-family: fangsong; background:red; color:black; text-align: center;'>恭喜发财 大吉大利</p>",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "xx6xfs2aly",
+              "isDeprecated": false,
+              "rightColumn": 57,
+              "widgetId": "8jcdpz0xhn",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "checkbox1",
+              "isCanvas": false,
+              "displayName": "复选框",
+              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+              "searchTags": [
+                "checkbox"
+              ],
+              "topRow": 0,
+              "bottomRow": 4,
+              "parentRowSpace": 10,
+              "showLoading": false,
+              "type": "TARO_CHECKBOX_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isDisabled": false,
+              "isMobile": true,
+              "key": "0n8js8w8ma",
+              "isDeprecated": false,
+              "rightColumn": 16,
+              "widgetId": "rgbqfqz3pu",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "勾选",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultCheckedState": true
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "sku1",
+              "color": "#f44336",
+              "isCanvas": false,
+              "goodsId": "10010",
+              "displayName": "商品规格",
+              "iconSVG": "/static/media/icon.2b42a32fa31e69449ff37e31e69ac966.svg",
+              "searchTags": [
+                "sku",
+                "表单",
+                "form"
+              ],
+              "topRow": 22,
+              "bottomRow": 54,
+              "parentRowSpace": 10,
+              "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png",
+              "type": "TARO_SKU_WIDGET",
+              "hideCard": false,
+              "products": [
+                {
+                  "id": "2259",
+                  "category": {
+                    "color": "2",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 110
+                },
+                {
+                  "id": "2260",
+                  "category": {
+                    "color": "3",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 99
+                },
+                {
+                  "id": "2257",
+                  "category": {
+                    "color": "1",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 111
+                },
+                {
+                  "id": "2258",
+                  "category": {
+                    "color": "1",
+                    "size": "2"
+                  },
+                  "price": 100,
+                  "stock": 6
+                }
+              ],
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "price": 399,
+              "stockNum": 999,
+              "categories": [
+                {
+                  "name": "颜色",
+                  "key": "color",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "粉色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png"
+                    },
+                    {
+                      "id": "2",
+                      "name": "黄色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-2.png"
+                    },
+                    {
+                      "id": "3",
+                      "name": "蓝色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-3.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "尺寸",
+                  "key": "size",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "大"
+                    },
+                    {
+                      "id": "2",
+                      "name": "小"
+                    }
+                  ]
+                }
+              ],
+              "isMobile": true,
+              "key": "2qt8ej4l4r",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "rpmft77vnu",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "button1",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 69,
+              "bottomRow": 73,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 6,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "text": "好的",
+              "isMobile": true,
+              "key": "iadghiuwmb",
+              "isDeprecated": false,
+              "rightColumn": 30,
+              "widgetId": "7sg5ys9e2v",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "rounded": true,
+              "fontSize": "16px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "swiper1",
+              "isCanvas": false,
+              "displayName": "轮播",
+              "iconSVG": "/static/media/icon.4f4fc85755aec79b99f64362b22f7493.svg",
+              "searchTags": [
+                "swipper",
+                "image",
+                "picture"
+              ],
+              "topRow": 76,
+              "bottomRow": 100,
+              "parentRowSpace": 10,
+              "type": "TARO_SWIPER_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "xr2pqx5ixs",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "2zwdtqv84v",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "list": [
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-1.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-2.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-3.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-4.jpg"
+                }
+              ],
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "search1",
+              "isCanvas": false,
+              "displayName": "搜索框",
+              "iconSVG": "/static/media/icon.02dadb91d73ad94aa8aaabf7fef790c7.svg",
+              "searchTags": [
+                "search input"
+              ],
+              "topRow": 100,
+              "bottomRow": 108,
+              "parentRowSpace": 10,
+              "type": "TARO_SEARCH_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "readonly": false,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "d1wa389tru",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "227z5czaft",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "inputAlign": "left",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "showButton": false,
+              "rounded": true
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "form1",
+              "isCanvas": false,
+              "displayName": "表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form"
+              ],
+              "topRow": 108,
+              "bottomRow": 145,
+              "fieldsObj": {
+                "user": {
+                  "label": "用户名",
+                  "id": "user",
+                  "name": "user",
+                  "widgetId": "",
+                  "fieldType": "input",
+                  "required": true,
+                  "inputType": "text",
+                  "index": 0
+                },
+                "password": {
+                  "label": "密码",
+                  "id": "password",
+                  "name": "password",
+                  "widgetId": "",
+                  "fieldType": "input",
+                  "required": true,
+                  "inputType": "password",
+                  "index": 1
+                },
+                "fieldtkc1yj67ew": {
+                  "id": "fieldtkc1yj67ew",
+                  "label": "字段1",
+                  "widgetId": "fk5ed6jxzg",
+                  "fieldType": "input",
+                  "name": "fieldtkc1yj67ew",
+                  "inputType": "text",
+                  "required": true
+                },
+                "fieldmok7b1l9aj": {
+                  "id": "fieldmok7b1l9aj",
+                  "label": "字段2",
+                  "widgetId": "9oyeyeqgvh",
+                  "fieldType": "picker",
+                  "name": "fieldmok7b1l9aj",
+                  "inputType": "password",
+                  "required": true
+                }
+              },
+              "parentRowSpace": 10,
+              "type": "TARO_FORM_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "f9cio05dgd",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "akfwg8jfyv",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "tabs1",
+              "isCanvas": false,
+              "displayName": "标签导航",
+              "iconSVG": "/static/media/icon.2407b480cf7dba032301ddffdf2fd569.svg",
+              "searchTags": [
+                "tabs"
+              ],
+              "topRow": 147,
+              "bottomRow": 187,
+              "parentRowSpace": 10,
+              "showLoading": false,
+              "type": "TARO_TABS_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "noq5przwns",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "widgetId": "d26n0rkwum",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "list": [
+                {
+                  "name": "标签1",
+                  "id": 1
+                },
+                {
+                  "name": "标签2",
+                  "id": 2
+                },
+                {
+                  "name": "标签3",
+                  "id": 3
+                }
+              ],
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "nameKey": "name",
+              "defaultNum": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "页面2",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false,
+    "icon": "smile-o"
+  },
+  "deleted": false,
+  "gitSyncId": "639008b60ab2a22cbb028c58_639008ca0ab2a22cbb028c61"
+}
